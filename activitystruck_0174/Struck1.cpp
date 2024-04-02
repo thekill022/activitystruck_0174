@@ -14,6 +14,9 @@ int main()
     Mahasiswa mhs; //inisialisasi variabel mhs untuk mengakses struck mahasiswa
     cout << "NIM Mahasiswa : ";
     cin >> mhs.nim; //membuat display untuk mengambil data nim mahasiswa
+    cout << "Nama Mahasiswa : ";
+    cin >> mhs.nama; //membuat display untuk mengambil data nama mahasiswa
+
 
 }
     
