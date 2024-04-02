@@ -38,4 +38,14 @@ int main()
     //membuat input umur mahasiswa
     cout << "Umur Mahasiswa : ";
     cin >> mhs.umur;
+
+   //membuat display untuk menampilkan semua data yang telah di inputkan mahasiswa
+    cout << endl;
+    cout << "\nNIM    : " << mhs.nim;
+    cout << "\nNama   : " << mhs.nama;
+    cout << "\nAlamat : ";
+    cout << "\n\tDesa : " << mhs.alamat.desa;
+    cout << "\n\tKota : " << mhs.alamat.kota;
+    cout << "\nUmur   : " << mhs.umur;
+
 }
