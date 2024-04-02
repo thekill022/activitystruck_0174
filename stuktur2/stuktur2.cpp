@@ -7,6 +7,13 @@ struct DetailAlamat //membuat struct untuk detail alamat mahasiswa
     string kota;
 };
 
+struct Mahasiswa //struct mahasiswa untuk mengambil input data mahasiswa
+{
+    string nim;
+    string nama;
+    DetailAlamat alamat; //mengganti tipe data string menjadi struck DetailAlamat di variabel alamat
+    int umur;
+};
 
 int main()
 {
