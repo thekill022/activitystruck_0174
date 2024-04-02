@@ -43,5 +43,7 @@ int main()
     cout << "\nAlamat : " << endl;
     cout << "\n\tDesa : " << mhs.alamat.desa;
     cout << "\n\tKota : " << mhs.alamat.kota;
+    //membuat display untuk umur mahasiswa dari data yang telah di inputkan
+    cout << "\nUmur   : " << mhs.umur;
 
 }
