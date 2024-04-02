@@ -39,6 +39,8 @@ int main()
 
         cout << "Umur Mahasiswa : ";
         cin >> mhs[i].umur;
-
+        //menambahkan cin.ignore() agar permintaan input NIM yang kedua tidak terskip
+        cin.ignore(1, '\n');
+        cout << endl;
     }
 }
