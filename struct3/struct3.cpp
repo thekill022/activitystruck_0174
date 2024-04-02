@@ -27,4 +27,12 @@ int main()
     getline(cin, mhs.nim);
     cout << "Nama Mahasiswa : ";
     getline(cin, mhs.nama);
+
+    //membuat input untuk alamat mahasiswa disertai detail
+    cout << "Alamat Mahasiswa : " << endl;
+    cout << "\tNama Desa : ";
+    cin >> mhs.alamat.desa;
+    cout << "\tNama Kota : ";
+    cin >> mhs.alamat.kota;
+
 }
