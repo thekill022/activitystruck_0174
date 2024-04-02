@@ -18,6 +18,8 @@ int main()
     cin >> mhs.nama; //membuat display untuk mengambil data nama mahasiswa
     cout << "Alamat Mahasiswa : ";
     cin >> mhs.alamat; //membuat display untuk mengambil data alamat mahasiswa
+    cout << "Umur Mahasiswa : ";
+    cin >> mhs.umur; //membuat display untuk mengambil data umur mahasiswa
 
 }
     
