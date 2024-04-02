@@ -21,5 +21,10 @@ struct Mahasiswa
 
 int main()
 {
-	
+    //membuat input untuk nim dan nama mahasiswa diserta getline agar spasi tidak terbaca sebagai value variabel berikutnya
+    Mahasiswa mhs;
+    cout << "NIM Mahasiswa : ";
+    getline(cin, mhs.nim);
+    cout << "Nama Mahasiswa : ";
+    getline(cin, mhs.nama);
 }
