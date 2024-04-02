@@ -17,5 +17,10 @@ struct Mahasiswa //struct mahasiswa untuk mengambil input data mahasiswa
 
 int main()
 {
-  
+    //membuat input nim dan nama mahasiswa
+    Mahasiswa mhs;
+    cout << "NIM Mahasiswa : ";
+    cin >> mhs.nim;
+    cout << "Nama Mahasiswa : ";
+    cin >> mhs.nama;
 }
