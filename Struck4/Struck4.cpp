@@ -46,6 +46,15 @@ int main()
 
     for (int i = 0; i < 3; i++) //membuat looping for untuk menampilkan input data mahasiswa
     {
-
+        //membuat output untuk menampilkan data mahasiswa yang telah disimpan didalam array mhs
+        cout << endl;
+        cout << "Data Mahasiswa Ke-" << (i + 1) << " : " << endl;
+        cout << "\nNIM    : " << mhs[i].nim;
+        cout << "\nNama   : " << mhs[i].nama;
+        cout << "\nAlamat : ";
+        cout << "\n\tDesa : " << mhs[i].alamat.desa;
+        cout << "\n\tKota : " << mhs[i].alamat.kota;
+        cout << "\nUmur   : " << mhs[i].umur;
+        cout << endl;
     }
 }
