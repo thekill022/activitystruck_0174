@@ -20,5 +20,6 @@ struct Mahasiswa
 
 int main()
 {
-    
+    Mahasiswa mhs[3]; //inisialisasi variabel mhs sebagai array untuk mengakses struck mahasiswa dan menapung banyak nilai
+
 }
