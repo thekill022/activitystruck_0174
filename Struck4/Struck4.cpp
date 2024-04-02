@@ -22,4 +22,8 @@ int main()
 {
     Mahasiswa mhs[3]; //inisialisasi variabel mhs sebagai array untuk mengakses struck mahasiswa dan menapung banyak nilai
 
+    for (int i = 0; i < 3; i++) //membuat looping for untuk meminta input data mahasiswa
+    {
+
+    }
 }
