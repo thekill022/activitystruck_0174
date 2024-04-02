@@ -23,6 +23,7 @@ int main()
 
     cout << endl;
     cout << "\nNIM    : " << mhs.nim; //membuat display dari data nim mahasiswa yang telah di inputkan
+    cout << "\nNama   : " << mhs.nama; //membuat display dari data nama mahasiswa yang telah di inputkan
 
 }
     
