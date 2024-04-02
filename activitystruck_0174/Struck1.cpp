@@ -21,5 +21,8 @@ int main()
     cout << "Umur Mahasiswa : ";
     cin >> mhs.umur; //membuat display untuk mengambil data umur mahasiswa
 
+    cout << endl;
+    cout << "\nNIM    : " << mhs.nim; //membuat display dari data nim mahasiswa yang telah di inputkan
+
 }
     
