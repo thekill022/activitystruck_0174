@@ -31,5 +31,7 @@ int main()
     cout << "\tNama Kota : ";
     cin >> mhs.alamat.kota;
 
-
+    //membuat input umur mahasiswa
+    cout << "Umur Mahasiswa : ";
+    cin >> mhs.umur;
 }
