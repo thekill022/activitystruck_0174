@@ -16,7 +16,8 @@ int main()
     cin >> mhs.nim; //membuat display untuk mengambil data nim mahasiswa
     cout << "Nama Mahasiswa : ";
     cin >> mhs.nama; //membuat display untuk mengambil data nama mahasiswa
-
+    cout << "Alamat Mahasiswa : ";
+    cin >> mhs.alamat; //membuat display untuk mengambil data alamat mahasiswa
 
 }
     
