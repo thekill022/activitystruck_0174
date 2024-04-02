@@ -25,6 +25,7 @@ int main()
     cout << "\nNIM    : " << mhs.nim; //membuat display dari data nim mahasiswa yang telah di inputkan
     cout << "\nNama   : " << mhs.nama; //membuat display dari data nama mahasiswa yang telah di inputkan
     cout << "\nAlamat : " << mhs.alamat; //membuat display dari data alamat mahasiswa yang telah di inputkan
+    cout << "\nUmur   : " << mhs.umur; //membuat display dari data umur mahasiswa yang telah di inputkan
 
 }
     
