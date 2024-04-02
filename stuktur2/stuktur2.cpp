@@ -23,4 +23,13 @@ int main()
     cin >> mhs.nim;
     cout << "Nama Mahasiswa : ";
     cin >> mhs.nama;
+
+    //membuat input alamat disertai detail dari alamat mahasiswa
+    cout << "Alamat Mahasiswa : ";
+    cout << "\tNama Desa : ";
+    cin >> mhs.alamat.desa;
+    cout << "\tNama Kota : ";
+    cin >> mhs.alamat.kota;
+
+
 }
