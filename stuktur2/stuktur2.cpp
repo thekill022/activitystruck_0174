@@ -39,5 +39,9 @@ int main()
     //membuat display untuk nim dan nama mahasiswa dari data yang telah di inputkan
     cout << "\nNIM    : " << mhs.nim;
     cout << "\nNama   : " << mhs.nama; 
-    
+    //membuat display untuk alamat disertai detail alamat mahasiswa dari data yang telah di inputkan
+    cout << "\nAlamat : " << endl;
+    cout << "\n\tDesa : " << mhs.alamat.desa;
+    cout << "\n\tKota : " << mhs.alamat.kota;
+
 }
